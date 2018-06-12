@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/root_ocr"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title_ocr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:text="Take an action"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_box_bg"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:textSize="30dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColorHint="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?selectableItemBackgroundBorderless"
+            android:fontFamily="@font/nunito_extra_bold"
+            android:foreground="@android:color/transparent"
+            android:text="Edit"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/search_ocr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="?selectableItemBackgroundBorderless"
+            android:fontFamily="@font/nunito_extra_bold"
+            android:foreground="@android:color/transparent"
+            android:text="Search"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dismiss_ocr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?selectableItemBackgroundBorderless"
+            android:fontFamily="@font/nunito_extra_bold"
+            android:foreground="@android:color/transparent"
+            android:text="Dismiss"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+</LinearLayout>

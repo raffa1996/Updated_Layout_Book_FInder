@@ -1,0 +1,19 @@
+<resources>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="send_email_text">Send Email</string>
+    <string name="mail_intent_chooser_text">Send mail...</string>
+    <string name="no_email_client_error">There are no email clients installed.</string>
+    <string name="copy_text">Copy to clipboard</string>
+    <string name="clipboard_copy_successful_message">Copied to clipboard.</string>
+    <string name="error">Error!</string>
+    <string name="not_a_url">Not a URL</string>
+    <string name="rescan">Rescan</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="illegal_state">Attempting to draw a null barcode</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>
